@@ -1,0 +1,70 @@
+@import "../../utils/scss/var.scss";
+
+
+.headerqora{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 150px;
+    padding: 10px 15px;
+    padding-top: 30px;
+    transition: all 1s;
+
+
+    &_logo_link{
+        text-decoration: none;
+        color: white;
+    }
+
+    &logo{
+        font-family: Montserrat;
+        font-size: 25px;
+        font-weight: 800;
+    }
+
+    &list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 400px;
+    }
+
+    &item{
+        list-style: none;
+        text-decoration: none;
+    }
+    
+    &link{
+        transition: all 0.5s;
+        color: rgba(250, 242, 242, 0.417);
+        font-weight: 500;
+
+        &:hover{
+            color: rgb(255, 255, 255);
+        }
+    }
+
+    &select{
+        border: none;
+        background-color: transparent;
+        margin-left: 350px;
+        cursor: pointer;
+        font-weight: 700;
+        color: rgba(0, 0, 0, 0.66);
+        color: #aaa;
+    }
+
+    &button{
+        border: none;
+        background-color: transparent;
+        position: absolute;
+        right: 620px;
+        // margin-top: 5px;
+        cursor: pointer;
+    }
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

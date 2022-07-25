@@ -1,0 +1,29 @@
+@import "../../utils/scss/var.scss";
+
+.footeroq{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+
+    &span{
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+        color: rgba(0,0,0,0.5);;
+    }
+}
+
+.footerqora{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+
+    &span{
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+        color: rgba(254, 240, 240, 0.5);;
+    }
+}

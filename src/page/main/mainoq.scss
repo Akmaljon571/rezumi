@@ -1,0 +1,102 @@
+@import "../../utils/scss/var.scss";
+
+
+.mainoq{
+    transition: all 2s;
+
+    &_ota{
+        width: 55%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 50px;
+        margin-bottom: 50px;
+
+        
+    }
+
+    &_left{
+        border-radius: 50%;
+        cursor: pointer;
+
+
+        &img{
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+        }
+    }
+
+    &_h1{
+        color: rgba(0, 0, 0, 0.781);
+        margin-bottom: 12px;
+        font-size: 38px;
+        margin-top: -2px;
+    }
+
+    &_h3{
+        font-weight: 500;
+        margin-bottom: 20px;
+        font-size: 32px;
+        color: #aaa;
+    }
+    
+    &_list{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 150px;
+    }
+
+    &_item{
+        list-style: none;
+    }
+
+    &_p{
+        margin-bottom: 20px;
+        font-size: 18px;
+        color: rgb(78, 78, 78);
+        font-weight: 500;
+    }
+
+    &_btn{
+         border: none;
+         background-color: transparent;
+         padding: 12px 20px;
+        //  background-color: rgb(17, 135, 238);
+        background: #1e90ff;
+        border-color: #1e90ff;
+         color: #fff;
+         border-radius: 5px;
+         font-weight: 700;
+         cursor: pointer;
+
+         &:hover{
+            background-color: rgb(89, 160, 222);;
+         }
+
+         &_otas{
+            display: flex;
+            align-items: center;
+            gap: 25px;
+        }
+        
+        &_hover{
+             transition: all 0.1s;
+            border: none;
+            background-color: transparent;
+            padding: 10px 20px;
+            border: 1px solid rgb(17, 135, 238);
+            color: rgb(17, 135, 238);
+            border-radius: 5px;
+            font-weight: 700;
+            cursor: pointer;
+
+
+            &:hover{
+              color: rgb(98, 175, 243);
+              border: 1px solid rgb(98, 175, 243);
+            }
+         }
+    }
+}
